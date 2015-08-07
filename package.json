@@ -1,0 +1,35 @@
+{
+  "name": "base64-cli",
+  "version": "0.0.0",
+  "description": "My astonishing module",
+  "license": "MIT",
+  "repository": "ecasilla/base64-cli",
+  "author": {
+    "name": "Ernie Casilla",
+    "email": "ecasilla@icloud.com",
+    "url": "github.com/ecasilla/base64_cli"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
